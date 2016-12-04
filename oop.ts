@@ -77,3 +77,27 @@ class Helper {
 console.log(2 * Helper.PI);
 console.log(Helper.calcCircumference(2));
 
+
+// Abstract Class
+abstract class Project {
+    projectName: string = 'Default';
+    budget: number = 1000;
+    type: string;
+
+    abstract changeProjectName(name: string): void;
+
+    calcBudget(): number {
+        return this.budget * 2;
+    }
+}
+
+class ITProject extends Project {
+    changeProjectName(name: string) {
+        this.projectName = name;
+    }
+}
+
+const it = new ITProject();
+console.log(it);
+it.changeProjectName('IT Project');
+console.log(it);

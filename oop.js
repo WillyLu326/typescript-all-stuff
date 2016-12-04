@@ -78,3 +78,28 @@ var Helper = (function () {
 }());
 console.log(2 * Helper.PI);
 console.log(Helper.calcCircumference(2));
+// Abstract Class
+var Project = (function () {
+    function Project() {
+        this.projectName = 'Default';
+        this.budget = 1000;
+    }
+    Project.prototype.calcBudget = function () {
+        return this.budget * 2;
+    };
+    return Project;
+}());
+var ITProject = (function (_super) {
+    __extends(ITProject, _super);
+    function ITProject() {
+        _super.apply(this, arguments);
+    }
+    ITProject.prototype.changeProjectName = function (name) {
+        this.projectName = name;
+    };
+    return ITProject;
+}(Project));
+var it = new ITProject();
+console.log(it);
+it.changeProjectName('IT Project');
+console.log(it);
