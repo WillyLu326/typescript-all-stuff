@@ -1,3 +1,8 @@
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
 /**
  * Created by zhenglu on 12/4/16.
  */
@@ -20,3 +25,16 @@ var p = new Person('Willy', 'willy');
 console.log(p);
 p.printAge();
 p.setType('Person Object');
+// Inheritance
+var Willy = (function (_super) {
+    __extends(Willy, _super);
+    function Willy(username) {
+        _super.call(this, 'Willy', username);
+        this.age = 22;
+    }
+    return Willy;
+}(Person));
+var w = new Willy('willy');
+console.log(w);
+w.printAge();
+w.setType('Willy Object');

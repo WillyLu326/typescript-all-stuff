@@ -24,3 +24,17 @@ const p = new Person('Willy', 'willy');
 console.log(p);
 p.printAge();
 p.setType('Person Object');
+
+// Inheritance
+class Willy extends Person{
+
+    constructor(username: string) {
+        super('Willy', username);
+        this.age = 22;
+    }
+}
+
+const w = new Willy('willy');
+console.log(w);
+w.printAge();
+w.setType('Willy Object');
