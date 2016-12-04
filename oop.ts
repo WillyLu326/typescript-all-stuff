@@ -67,3 +67,13 @@ console.log(plant.species);
 
 
 // Static Properties and Methods
+class Helper {
+    static PI: number = 3.14;
+    static calcCircumference(diameter: number): number {
+        return diameter * this.PI;
+    }
+}
+
+console.log(2 * Helper.PI);
+console.log(Helper.calcCircumference(2));
+
