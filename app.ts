@@ -26,7 +26,16 @@ console.log(variable);
 
 
 // Rest & Spread
-
 const numbers = [1, 2, 3, 4, 5];
 console.log(Math.max.apply(null, numbers)); // using apply to pass parameter
 console.log(Math.max(...numbers)); // ... is called spread operator
+
+function makeArray(arg1: number, arg2: number) {
+    return [arg1, arg2];
+}
+console.log(makeArray(1, 2));
+
+function makeArray2(...args: number[]) { // this ... is called rest operator
+    return args;
+}
+console.log(makeArray2(1, 2, 3, 4));
