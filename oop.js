@@ -121,3 +121,4 @@ var Singleton = (function () {
 var s1 = Singleton.getInstance();
 var s2 = Singleton.getInstance();
 console.log(s1, s2);
+// s1.name = 'other name';   => Error

@@ -107,7 +107,10 @@ console.log(it);
 class Singleton {
     private static instance: Singleton;
 
-    private constructor(private name: string) {
+    public readonly name: string;
+
+    private constructor(name: string) {
+        this.name = name;
         // If parameter keyword is public; it means this para will be the property of this object
         console.log('constructor is invoked');
     }
@@ -124,4 +127,6 @@ const s1 = Singleton.getInstance();
 const s2 = Singleton.getInstance();
 
 console.log(s1, s2);
+
+// s1.name = 'other name';   => Error
 
