@@ -32,3 +32,15 @@ function makeArray2() {
     return args;
 }
 console.log(makeArray2(1, 2, 3, 4));
+// Destructuring Array
+var hobbies = ['Cooking', 'Gym'];
+var hobby1 = hobbies[0], hobby2 = hobbies[1];
+console.log(hobby1 + ' ' + hobby2);
+// Template Literals
+var username = 'Willy Lu';
+var age = 27;
+console.log("Hello " + username + ", your age is " + age + ".");
+// Exercise
+var newArray = [55, 20];
+Array.prototype.push.apply(newArray, numbers);
+console.log(newArray);

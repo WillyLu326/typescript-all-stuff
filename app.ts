@@ -39,3 +39,20 @@ function makeArray2(...args: number[]) { // this ... is called rest operator
     return args;
 }
 console.log(makeArray2(1, 2, 3, 4));
+
+
+// Destructuring Array
+const hobbies = ['Cooking', 'Gym'];
+const [hobby1, hobby2] = hobbies;
+console.log(hobby1 + ' ' + hobby2);
+
+
+// Template Literals
+const username: string = 'Willy Lu';
+const age: number = 27;
+console.log(`Hello ${ username }, your age is ${ age }.`);
+
+// Exercise
+var newArray = [55, 20];
+Array.prototype.push.apply(newArray, numbers);
+console.log(newArray);
