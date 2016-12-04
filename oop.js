@@ -103,3 +103,21 @@ var it = new ITProject();
 console.log(it);
 it.changeProjectName('IT Project');
 console.log(it);
+// Singleton
+var Singleton = (function () {
+    function Singleton(name) {
+        this.name = name;
+        // If parameter keyword is public; it means this para will be the property of this object
+        console.log('constructor is invoked');
+    }
+    Singleton.getInstance = function () {
+        if (!Singleton.instance) {
+            this.instance = new Singleton('willy');
+        }
+        return this.instance;
+    };
+    return Singleton;
+}());
+var s1 = Singleton.getInstance();
+var s2 = Singleton.getInstance();
+console.log(s1, s2);
