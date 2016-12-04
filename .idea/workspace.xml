@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/oop.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+              <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc;n#Person#0" expanded="false" />
               </folding>
@@ -218,12 +218,12 @@
       <updated>1480715891387</updated>
       <workItem from="1480715892693" duration="1257000" />
       <workItem from="1480818754977" duration="1080000" />
-      <workItem from="1480868980571" duration="1985000" />
+      <workItem from="1480868980571" duration="2385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4322000" />
+    <option name="totallyTimeSpent" value="4722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1279" height="713" extended-state="0" />
@@ -340,7 +340,7 @@
     <entry file="file://$PROJECT_DIR$/oop.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc;n#Person#0" expanded="false" />
           </folding>
