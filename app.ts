@@ -56,3 +56,4 @@ console.log(`Hello ${ username }, your age is ${ age }.`);
 var newArray = [55, 20];
 Array.prototype.push.apply(newArray, numbers);
 console.log(newArray);
+

@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <!--<script src="app.js"></script>-->
-    <script src="exe.js"></script>
-    <script src="exercise.js"></script>
-    <script src="namespace.js"></script>
+    <!--<script src="exe.js"></script>-->
+    <!--<script src="exercise.js"></script>-->
+    <!--<script src="namespace.js"></script>-->
+    <script src="moduleImporting.js"></script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+
 </head>
 <body>
 ldd
+<script>
+    // set our baseURL reference path
+    SystemJS.config({
+        baseURL: '/',
+        defaultJSExtensions: true
+    });
+
+    // loads /js/main.js
+    SystemJS.import('moduleImporting.js');
+</script>
 </body>
 </html>
