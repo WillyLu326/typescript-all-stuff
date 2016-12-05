@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc0cb027-4e85-468f-875a-2acba4aa0041" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app4.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app4.js" afterPath="$PROJECT_DIR$/app4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app4.ts" afterPath="$PROJECT_DIR$/app4.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="app4.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app4.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="144">
+              <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc;n#logged#0" expanded="false" />
               </folding>
@@ -267,12 +266,12 @@
       <updated>1480715891387</updated>
       <workItem from="1480715892693" duration="1257000" />
       <workItem from="1480818754977" duration="1080000" />
-      <workItem from="1480868980571" duration="9764000" />
+      <workItem from="1480868980571" duration="10798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12101000" />
+    <option name="totallyTimeSpent" value="13135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1279" height="713" extended-state="0" />
@@ -479,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app4.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="144">
+          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc;n#logged#0" expanded="false" />
           </folding>
