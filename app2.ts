@@ -42,3 +42,4 @@ interface FunctionType {
 let doubleFunction: FunctionType = (num1: number, num2: number) => (num1 + num2) * 2;
 
 console.log(doubleFunction(10, 20));
+
